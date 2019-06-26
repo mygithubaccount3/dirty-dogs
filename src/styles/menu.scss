@@ -1,0 +1,68 @@
+@import "./utils/utilities/variables";
+@import "./utils/mixins/mixins";
+
+.menu {
+  display: flex;
+  flex-direction: column;
+
+  @include respond-to(smallScreen) {
+    margin: auto;
+    width: 90%;
+  }
+
+  &__item {
+    display: flex;
+
+    @include respond-to(smallScreen) {
+      flex-wrap: wrap;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    &:nth-child(even) > .menu__description {
+      order: 2;
+
+      @include respond-to(smallScreen) {
+        order: 0;
+      }
+    }
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    & > h2 {
+      width: 47%;
+    }
+
+    & > p {
+      width: 66%;
+
+      @include respond-to(smallScreen) {
+        width: 85%;
+      }
+    }
+
+    @include respond-to(smallScreen) {
+      width: 100%;
+
+      & > h2, & > p {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+
+  &__photo {
+    height: auto;
+    width: 50%;
+
+    @include respond-to(smallScreen) {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "./utils/utilities/variables";
+@import "./utils/mixins/mixins";
+
+footer {
+  border: 2px solid #e9e9e9;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+
+  @include respond-to(smallScreen) {
+    padding: 15px;
+  }
+}
+
+.copyright, .contact {
+  color: #555559;
+  font-family: "Open Sans", sans-serif;
+  font-size: rem(14);
+  font-weight: 400;
+  line-height: 24px;
+
+  @include respond-to(smallScreen) {
+    font-size: rem(12);
+  }
+}

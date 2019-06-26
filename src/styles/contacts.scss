@@ -1,0 +1,52 @@
+@import "./utils/utilities/variables";
+@import "./utils/mixins/mixins";
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  width: 50%;
+
+  @include respond-to(smallScreen) {
+    width: 90%;
+  }
+
+  & > input {
+    width: 40%;
+  }
+
+  & > textarea {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    resize: none;
+    width: 100%;
+  }
+
+  & > button {
+    margin: auto;
+    width: 25%;
+  }
+
+  & > span {
+    animation: 1s infinite spin;
+    display: none;
+
+    &::after {
+      content: '\f110';
+      font-family: FontAwesome;
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}

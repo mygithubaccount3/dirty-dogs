@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/dirty-dogs/static/css/main.8cc6f5ff.chunk.css",
+    "main.js": "/dirty-dogs/static/js/main.f2e04fcb.chunk.js",
+    "main.js.map": "/dirty-dogs/static/js/main.f2e04fcb.chunk.js.map",
+    "runtime~main.js": "/dirty-dogs/static/js/runtime~main.eb22c79c.js",
+    "runtime~main.js.map": "/dirty-dogs/static/js/runtime~main.eb22c79c.js.map",
+    "static/css/2.57797527.chunk.css": "/dirty-dogs/static/css/2.57797527.chunk.css",
+    "static/js/2.24cc68fe.chunk.js": "/dirty-dogs/static/js/2.24cc68fe.chunk.js",
+    "static/js/2.24cc68fe.chunk.js.map": "/dirty-dogs/static/js/2.24cc68fe.chunk.js.map",
+    "index.html": "/dirty-dogs/index.html",
+    "precache-manifest.c394435878da3f98f8579bde15e5059f.js": "/dirty-dogs/precache-manifest.c394435878da3f98f8579bde15e5059f.js",
+    "service-worker.js": "/dirty-dogs/service-worker.js",
+    "static/css/2.57797527.chunk.css.map": "/dirty-dogs/static/css/2.57797527.chunk.css.map",
+    "static/css/main.8cc6f5ff.chunk.css.map": "/dirty-dogs/static/css/main.8cc6f5ff.chunk.css.map",
+    "static/media/hotdog.svg": "/dirty-dogs/static/media/hotdog.34f64ccb.svg",
+    "static/media/photo_1.jpg": "/dirty-dogs/static/media/photo_1.079443c9.jpg",
+    "static/media/photo_10.jpg": "/dirty-dogs/static/media/photo_10.2389aa3b.jpg",
+    "static/media/photo_11.jpg": "/dirty-dogs/static/media/photo_11.53d22f2e.jpg",
+    "static/media/photo_12.jpg": "/dirty-dogs/static/media/photo_12.71c4fa47.jpg",
+    "static/media/photo_2.jpg": "/dirty-dogs/static/media/photo_2.31d2f637.jpg",
+    "static/media/photo_3.jpg": "/dirty-dogs/static/media/photo_3.ca43f98b.jpg",
+    "static/media/photo_4.jpg": "/dirty-dogs/static/media/photo_4.b5564593.jpg",
+    "static/media/photo_5.jpg": "/dirty-dogs/static/media/photo_5.c420f99a.jpg",
+    "static/media/photo_6.jpg": "/dirty-dogs/static/media/photo_6.4b85572a.jpg",
+    "static/media/photo_7.jpg": "/dirty-dogs/static/media/photo_7.eb14bb2c.jpg",
+    "static/media/photo_8.jpg": "/dirty-dogs/static/media/photo_8.0fd860c9.jpg",
+    "static/media/photo_9.jpg": "/dirty-dogs/static/media/photo_9.eedcf8b9.jpg"
+  }
+}

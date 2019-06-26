@@ -1,0 +1,68 @@
+@import "./utils/utilities/variables";
+@import "./utils/mixins/mixins";
+
+.hero {
+  margin-top: 20px;
+}
+
+.intro {
+  align-items: center;
+  background-color: #fbfafa;
+  display: flex;
+  flex-direction: column;
+  padding-top: 115px;
+  padding-bottom: 173px;
+
+  @include respond-to(smallScreen) {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+  }
+
+  & > img {
+    height: 92px;
+    width: 92px;
+  }
+
+  &__title {
+    color: #555559;
+    font-family: "Open Sans", sans-serif;
+    font-size: rem(56);
+    font-weight: 300;
+    letter-spacing: -2.24px;
+    margin-top: 36px;
+    margin-bottom: 80px;
+    text-align: center;
+    width: 60%;
+
+    @include respond-to(smallScreen) {
+      font-size: rem(40);
+      margin-bottom: 40px;
+      width: 100%;
+    }
+  }
+
+  &__link {
+    border-radius: 6px;
+    background-color: #286782;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: rem(20);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.8px;
+    padding: 24px 33px 20px;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+    @include respond-to(smallScreen) {
+      text-align: center;
+      width: 80%;
+    }
+  }
+}
