@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "503525cc2b27fda7dd262fc08b767077",
+    "revision": "dfc5db606289a200e43854de9f522782",
     "url": "/dirty-dogs/index.html"
   },
   {
