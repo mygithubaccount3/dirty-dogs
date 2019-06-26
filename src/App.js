@@ -5,6 +5,7 @@ import Content from './components/Content'
 import Contact from './components/Contacts'
 import Footer from './components/Footer'
 import { BrowserRouter, Route } from 'react-router-dom'
+import { createBrowserHistory } from "history";
 
 function App() {
   return (
@@ -16,5 +17,9 @@ function App() {
       </BrowserRouter>
   );
 }
+
+const history = createBrowserHistory({
+    basename: process.env.PUBLIC_URL
+})
 
 export default App;
