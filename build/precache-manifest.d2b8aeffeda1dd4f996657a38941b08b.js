@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22755501c173ca486ba13f4a5502fbf6",
+    "revision": "672e7c9917cd51cbc39a731c35c93108",
     "url": "/dirty-dogs/build/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dirty-dogs/build/static/css/2.57797527.chunk.css"
   },
   {
-    "revision": "e366035d2463a80b4fc8",
-    "url": "/dirty-dogs/build/static/css/main.8cc6f5ff.chunk.css"
+    "revision": "bb3cd2bd4ddc90da4945",
+    "url": "/dirty-dogs/build/static/css/main.a69b9986.chunk.css"
   },
   {
     "revision": "9135fbd8a60a901c5c87",
     "url": "/dirty-dogs/build/static/js/2.7f78e2fa.chunk.js"
   },
   {
-    "revision": "e366035d2463a80b4fc8",
+    "revision": "bb3cd2bd4ddc90da4945",
     "url": "/dirty-dogs/build/static/js/main.8a03c14e.chunk.js"
   },
   {
