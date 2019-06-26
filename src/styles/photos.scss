@@ -43,10 +43,14 @@
   }
 
   &__item {
-    width: 16.6%;
+    width: 17.37%;
 
     @include respond-to(smallScreen) {
       display: none;
+    }
+
+    &:nth-child(6n+7) {
+      width: 13%;
     }
 
     & > img {

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dirty-dogs/build/static/css/main.a69b9986.chunk.css",
+    "main.css": "/dirty-dogs/build/static/css/main.0eb1b605.chunk.css",
     "main.js": "/dirty-dogs/build/static/js/main.8a03c14e.chunk.js",
     "main.js.map": "/dirty-dogs/build/static/js/main.8a03c14e.chunk.js.map",
     "runtime~main.js": "/dirty-dogs/build/static/js/runtime~main.e33683ee.js",
@@ -9,10 +9,10 @@
     "static/js/2.7f78e2fa.chunk.js": "/dirty-dogs/build/static/js/2.7f78e2fa.chunk.js",
     "static/js/2.7f78e2fa.chunk.js.map": "/dirty-dogs/build/static/js/2.7f78e2fa.chunk.js.map",
     "index.html": "/dirty-dogs/build/index.html",
-    "precache-manifest.d2b8aeffeda1dd4f996657a38941b08b.js": "/dirty-dogs/build/precache-manifest.d2b8aeffeda1dd4f996657a38941b08b.js",
+    "precache-manifest.9f86e5137e5949230b97ed6043af4ff7.js": "/dirty-dogs/build/precache-manifest.9f86e5137e5949230b97ed6043af4ff7.js",
     "service-worker.js": "/dirty-dogs/build/service-worker.js",
     "static/css/2.57797527.chunk.css.map": "/dirty-dogs/build/static/css/2.57797527.chunk.css.map",
-    "static/css/main.a69b9986.chunk.css.map": "/dirty-dogs/build/static/css/main.a69b9986.chunk.css.map",
+    "static/css/main.0eb1b605.chunk.css.map": "/dirty-dogs/build/static/css/main.0eb1b605.chunk.css.map",
     "static/media/hotdog.svg": "/dirty-dogs/build/static/media/hotdog.34f64ccb.svg",
     "static/media/photo_1.jpg": "/dirty-dogs/build/static/media/photo_1.079443c9.jpg",
     "static/media/photo_10.jpg": "/dirty-dogs/build/static/media/photo_10.2389aa3b.jpg",
