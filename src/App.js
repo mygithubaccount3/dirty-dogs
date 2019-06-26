@@ -11,8 +11,8 @@ function App() {
   return (
       <BrowserRouter>
           <Header />
-          <Route path="/" exact component={Content}/>
-          <Route path="/contact" component={Contact} />
+          <Route path="/dirty-dogs" exact component={Content}/>
+          <Route path="/dirty-dogs/contact" component={Contact} />
           <Footer />
       </BrowserRouter>
   );
