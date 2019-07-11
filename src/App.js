@@ -4,22 +4,17 @@ import Header from './components/Header'
 import Content from './components/Content'
 import Contact from './components/Contacts'
 import Footer from './components/Footer'
-import { BrowserRouter, Route } from 'react-router-dom'
-import { createBrowserHistory } from "history";
+import { HashRouter, Route } from 'react-router-dom'
 
 function App() {
   return (
-      <BrowserRouter>
+      <HashRouter>
           <Header />
-          <Route path="/dirty-dogs/build" exact component={Content}/>
-          <Route path="/dirty-dogs/build/contact" component={Contact} />
+          <Route path="/" exact component={Content}/>
+          <Route path="/contact" component={Contact} />
           <Footer />
-      </BrowserRouter>
+      </HashRouter>
   );
 }
-
-const history = createBrowserHistory({
-    basename: process.env.PUBLIC_URL
-})
 
 export default App;

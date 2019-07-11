@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dirty-dogs/build/precache-manifest.9f86e5137e5949230b97ed6043af4ff7.js"
+  "/dirty-dogs/build/precache-manifest.beb4f883468fcedf41d975ec46e9a9f2.js"
 );
 
 self.addEventListener('message', (event) => {

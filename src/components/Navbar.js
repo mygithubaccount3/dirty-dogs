@@ -13,10 +13,10 @@ class Navbar extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link to="/dirty-dogs/build" className="nav-item nav-link navbar__item">Menu <span className="sr-only">(current)</span></Link>
+                        <Link to="/" className="nav-item nav-link navbar__item">Menu <span className="sr-only">(current)</span></Link>
                         <a className="nav-item nav-link navbar__item" href="#">Catering</a>
                         <a className="nav-item nav-link navbar__item" href="#">About us</a>
-                        <Link to="/dirty-dogs/build/contact" className="nav-item nav-link navbar__item">Contact us</Link>
+                        <Link to="/contact" className="nav-item nav-link navbar__item">Contact us</Link>
                     </div>
                 </div>
             </nav>
